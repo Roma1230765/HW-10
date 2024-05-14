@@ -1,0 +1,69 @@
+footer{
+    background-color: #2F303A;
+    color: white;
+}
+.button button:hover {
+    background-color: #2196F3
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.link-blue {
+    color: #2196F3;
+  }
+  
+  .link-black2 {
+    color: black;
+  }
+
+  .link-blue-black {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .projects-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .projects-category {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .link-footer {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.footer-Web {
+    color: #2196F3;
+}
+.footer-Studio {
+    color: white;
+}
+
+  .header-nav-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .footer__contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+  }
