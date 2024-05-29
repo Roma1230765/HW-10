@@ -1,69 +1,85 @@
-footer{
-    background-color: #2F303A;
-    color: white;
-}
-.button button:hover {
-    background-color: #2196F3
+:root{
+  --accent-color:#2196F3;
+--logo-color: #000;
+--text-color:#212121;
+--additional-color: #757575;
+--footer-namber:rgba(255, 255, 255, 0.60);
+--footer-background: #2F303A;
+--team-background:#F5F4FA;
+--main-background:#FFF;
+
 }
 
-.button {
+footer{
+    background-color:var(--footer-background);
+    color: white;
+}
+.card-item button:hover {
+    background-color:var(--accent-color);
+}
+
+button {
   font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-.link-blue {
-    color: #2196F3;
+.header-blue {
+    color: var(--accent-color);
   }
   
-  .link-black2 {
-    color: black;
+  .header-black2 {
+    color: var(--logo-color);
   }
 
-  .link-blue-black {
+  .nav-link {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: 500;
+    font-size: 14px;
   }
 
   a {
     text-decoration: none;
   }
 
-  .projects-title {
+  h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
   }
 
-  .projects-category {
+  p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
   }
 
-  .link-footer {
-    color: white;
+  .footer-logo {
+    color: var(--main-background);
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 26px;
 }
 
-.footer-Web {
-    color: #2196F3;
+.footer-web {
+    color: var(--accent-color);
 }
-.footer-Studio {
-    color: white;
+.footer-studio {
+    color: var(--main-background);
 }
 
-  .header-nav-item {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-  }
+.footer-link {
+  color:var(--footer-namber);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
 
-  .footer__contact {
+  .address-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 400; 
     font-size: 14px;
+    line-height: 24px;
+    color: var(--main-background);
   }
