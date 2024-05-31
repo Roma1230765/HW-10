@@ -1,3 +1,15 @@
+:root{
+    --accent-color:#2196F3;
+  --logo-color: #000;
+  --text-color:#212121;
+  --additional-color: #757575;
+  --footer-namber:rgba(255, 255, 255, 0.60);
+  --footer-background: #2F303A;
+  --team-background:#F5F4FA;
+  --main-background:#FFF;
+
+  }
+
 body {
 
     font-family:'Raleway', sans-serif; 
@@ -6,14 +18,14 @@ body {
 
 .section-black,
 footer {
-    background-color: #2F303A;
-    color: white;
+    background-color:var(--footer-background);
+    color:var(--main-background);
     text-transform: none; 
 }
 
 button {
-    background-color: #2196F3;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--main-background);
     text-transform: none; 
 }
 
@@ -43,35 +55,42 @@ nav a {
 }
 
 
-.blue,
+.header-blue,
 .blue2 {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.black2 {
-    color: black;
+.header-black2 {
+    color:var(--logo-color);
 }
 
-.link-footer {
-    color: white;
+.footer-link {
+    color:var(--main-background);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-.footer-address {
-    color: #ffffff60;
+.address-link {
+    color: var(--main-background);
+}
+.footer-link {
+color: var(--footer-namber);
 }
 
-.footer-Web {
-    color: #2196F3;
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color);}
+
+.footer-web {
+    color: var(--accent-color);
 }
-.footer-Studio {
-    color: white;
+.footer-studio {
+    color: var(--main-background);
 }
 
-.main-section {
+.hero-title {
     text-align: center;
     font-size: 44px;
 }
@@ -107,7 +126,7 @@ p {
     font-size: 14px;
 }
 
-.blue-black {
+.heder-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
