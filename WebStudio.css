@@ -16,7 +16,6 @@ body {
    font-size: 14px;
    }
 
-.section-black,
 footer {
     background-color:var(--footer-background);
     color:var(--main-background);
@@ -26,7 +25,12 @@ footer {
 button {
     background-color: var(--accent-color);
     color: var(--main-background);
-    text-transform: none; 
+    text-transform: none;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1,8;
 }
 
 .title {
@@ -54,14 +58,59 @@ nav a {
     color: inherit;
 }
 
-
-.header-blue,
-.blue2 {
-    color: var(--accent-color);
+.header-blue {
+    color:var(--accent-color);
+font-family: Raleway, sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 6px;
 }
 
 .header-black2 {
     color:var(--logo-color);
+font-family: Raleway, sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 6px;
+}
+
+
+.blue2 {
+    color: var(--accent-color);
+}
+
+.header-item:hover {
+    color: var(--accent-color);
+}
+
+.header-item {
+    color:var(--logo-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,14px;
+}
+
+.list-title {
+    color:var(--text-color);
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,14px;
+
+}
+
+.advantages-item {
+    color:var(--additional-color);
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,87px;
 }
 
 .footer-link {
@@ -99,11 +148,21 @@ a {
     text-decoration: none;
 }
 
-h1 {
+.hero-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44;
     line-height: 1.36;
+}
+
+.work-title {
+    color:var(--text-color);
+text-align: center;
+font-family: Roboto, sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16px;
 }
 
 h3 {
@@ -118,9 +177,18 @@ p {
     font-size: 16px;
 }
 
-.link-stydio,
-.list,
 .team-list {
+    color:var(--text-color);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16px;
+}
+
+.link-stydio,
+.list, {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
