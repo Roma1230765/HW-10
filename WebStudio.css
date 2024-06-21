@@ -74,22 +74,6 @@ line-height: 6px;
 }
 
 
-.footer-web {
-    color: var(--accent-color);
-}
-.footer-studio {
-    color: var(--main-background);
-}
-
-
-.footer-logo {
-    color:var(--accent-color);
-    font-family: Raleway;
-    font-size: 26px;
-font-style: normal;
-font-weight: 700;
-}
-
 .hero-button {
     background-color: var(--accent-color);
     color: var(--main-background);
@@ -142,19 +126,44 @@ font-weight: 700;
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
-line-height: 1,14px;
+        line-height: 1,14px;
+        
+    }
+    
+    .advantages-item {
+        color:var(--additional-color);
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1,18px;
+    }
+    
+    
+    
+    
+    footer {
+        background-color:var(--footer-background);
+        color:var(--main-background);
+        text-transform: none; 
+    }
+    
+    .footer-web {
+        color: var(--accent-color);
+    }
+    
+    .footer-studio {
+        color: var(--main-background);
+    }
 
-}
-
-.advantages-item {
-    color:var(--additional-color);
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
+    .footer-logo {
+        color:var(--accent-color);
+        font-family: Raleway;
+        font-size: 26px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 1,18px;
-}
-
+    font-weight: 700;
+    }
+    
 .footer-link {
     color:var(--footer-namber);
     font-family: Roboto;
@@ -173,21 +182,6 @@ line-height: 1,14px;
     font-weight: 400;
     line-height: 1,71px;
 }
-
-
-footer {
-    background-color:var(--footer-background);
-    color:var(--main-background);
-    text-transform: none; 
-}
-
-.footer-web {
-    color: var(--accent-color);
-}
-.footer-studio {
-    color: var(--main-background);
-}
-
 
 a {
     text-decoration: none;
